@@ -27,6 +27,10 @@ public class MonthDay {
                 break;
 
         }
-        System.out.println(output);
+        if (output != "") {
+            System.out.println(output);
+        } else {
+            System.out.println("Invalid Input!");
+        }
     }
 }
